@@ -14,6 +14,7 @@ import javax.persistence.*;
 public class User {
     @Id
     @GeneratedValue
+    //配置 呸
     private Long id;
     @Column(name = "name",length = 100,nullable = true)
     private String name;
