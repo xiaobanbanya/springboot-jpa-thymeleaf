@@ -57,6 +57,18 @@ public class UserController {
         us.delete(id);
         return "redirect:/";
     }
+    public String test1(String name){
+        System.out.println("大神增加1");
+        return "hah";
+    }
+    public String test2(int  id){
+        System.out.println("大神增加2");
+        return "hah";
+    }
+    public String test3(){
+        System.out.println("大神增加3");
+        return "hah";
+    }
 
 
 }
